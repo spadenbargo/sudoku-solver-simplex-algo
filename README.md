@@ -53,4 +53,4 @@ After many runs and the sake of resourcefulness I have chosen $p \in \{0.005,0.0
 The red curve is an approximate fitted line displaying the general trend of
 the samples.
 
-Results show that the probability of randomly filled boards being feasible decrease drastically as $p$ increases, it is observed that for value $p^*\approx 0.27$ is the smallest value of $p$ such that $g(p^*)\approx 0$ consistently.
+Results show that the probability of randomly filled boards being feasible decrease drastically as $p$ increases, it is observed that for value $p^\*\approx 0.27$ is the smallest value of $p$ such that $g(p^\*)\approx 0$ consistently.
