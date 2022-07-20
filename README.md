@@ -24,11 +24,11 @@ Thus the constraints are **Subject to**:
 
 $$
 \begin{cases}
-    & \sum^9_{v = 1} x_{ijv} = 1,& \text{for } i,j \in [1, 9], \text{one value } v \text{ per cell} \\
-    & \sum^9_{i = 1} x_{ijv} = 1,& \text{for } j,v \in [1, 9],\text{one value per row} \\
-    & \sum^9_{j = 1} x_{ijv} = 1,& \text{for } i,v \in [1, 9],\text{one value per column} \\
-    & \sum^{3p}_{j=3p-2} \sum^{3q}_{i=3q-2} x_{ijv} = 1,& \text{for } v \in [1, 9] \text{ and } p,q \in [1,3],\text{one value per 3}\times \text{3 sub-board}\\
-    & x_{ijv} = 1,& \text{for } x_{ijv} > 0 \in M_{ij} \text{ already assigned cells can't' be changed}\\
+    & \sum^{9}_{v = 1} x_{ijv} = 1,& \text{for } i,j \in [1, 9], \text{one } v \text{ per cell} \\
+    & \sum^{9}_{i = 1} x_{ijv} = 1,& \text{for } j,v \in [1, 9],\text{one } v \text{ per row} \\
+    & \sum^{9}_{j = 1} x_{ijv} = 1,& \text{for } i,v \in [1, 9],\text{one } v \text{ per column} \\
+    & \sum^{3p}_{j=3p-2} \sum^{3q}_{i=3q-2} x_{ijv} = 1,& \text{for } v \in [1, 9],p,q \in [1,3],\text{one }v \text{ per } 3\times 3 \text{ sub-board}\\
+    & x_{ijv} = 1,& \text{for } x_{ijv} > 0 \in M_{ij} \text{ already assigned cells}\\
     & \forall x \in [0,1] & \text{decision variables}
 \end{cases}
 $$
