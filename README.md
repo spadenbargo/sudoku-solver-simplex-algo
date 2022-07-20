@@ -20,10 +20,9 @@ $$
 
 Now we require the feasibility of each square being a an interger value in $[1,9]$ with the constraints being each cell value must be unique to that row, column and box (sub $3\times 3$ boards). For a $9\times 9$ board $M$ indexed by two integers $i,j\in [1,9]$ for every cell in $M$ and possible values $v\in [1,9]$ and we create decision variables $x$ which is denoted as $x_{ijv}$ that represents whether a value $v$ is chosen corresponding to its cell $i,j$ thus $x$ is either $1$ or $0$. 
 
-Thus the constraints can be formulated by:
+Thus the constraints are **Subject to**:
 
 $$
-\text{Subject to:}
 \begin{cases}
     & \sum^9_{v = 1} x_{ijv} = 1,& \text{for } i,j \in [1, 9], \text{one value } v \text{ per cell} \\\\
     & \sum^9_{i = 1} x_{ijv} = 1,& \text{for } j,v \in [1, 9],\text{one value per row} \\\\
