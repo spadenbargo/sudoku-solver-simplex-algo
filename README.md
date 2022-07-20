@@ -46,7 +46,7 @@ Let $g(p)$ be  the expected probability that $M_p$ is solvable. Trivial cases ar
 
 ### [Empirical Results Script Implementation](results.py)
 
-After many runs and the sake of resourcefulness I have chosen $p \in \{0.005,0.01,\dots,0.3\} \cup \{0.35, 0.4,\dots,0.95\}$ as it had shown convergence to $0$ rapidly after $0.3$, and 100 samples for each $p$ to calcuate the average $\mathbb{E}[g(p)]$ of whether the boards were feasible or not according to their probability $p$.
+After many runs and the sake of resourcefulness I have chosen $p \in \lbrace 0.005,0.01,\dots,0.3\rbrace \cup \lbrace 0.35, 0.4,\dots,0.95\rbrace$ as it had shown convergence to $0$ rapidly after $0.3$, and 100 samples for each $p$ to calcuate the average $\mathbb{E}[g(p)]$ of whether the boards were feasible or not according to their probability $p$.
 
 ![q4res2](README.assets/q4res2.PNG)
 
