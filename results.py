@@ -1,3 +1,7 @@
+from scipy.interpolate import UnivariateSpline
+import matplotlib
+from matplotlib import pyplot as plt
+import numpy as np
 from generate_board import gen_board
 from solver import sudoku_feasible
 
